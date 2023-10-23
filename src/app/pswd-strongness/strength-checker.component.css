@@ -1,0 +1,27 @@
+.strengthoutput {
+    display: inline;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.point:last-of-type {
+    margin: 0 !important;
+}
+
+.point {
+    background: #D9D9D9;
+    border-radius: 50px;
+    display: inline-block;
+    padding: 5px;
+    margin-right: 3%;
+    width: 28%;
+}
+
+.alert{
+    font-family: 'Average Sans', sans-serif;
+    justify-content: center;
+    display: flex;
+    margin: 0 auto;
+    padding: 12px;
+}

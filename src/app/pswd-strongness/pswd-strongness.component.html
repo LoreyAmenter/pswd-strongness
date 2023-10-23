@@ -1,0 +1,11 @@
+<form class="form" [formGroup]="formpswd">
+  <div class='mb-3'>
+    <label class="label-text">Test your password strength</label>
+    <input type='text' class='pswd-input' name='input' formControlName="password" placeholder='Input here'>
+  </div>
+  <p class="text">Password strength:</p>
+  <app-strength-checker
+    [passwordToVerify]="formpswd.value.password"
+    (passwordStrength)="passwordValid($event)"
+  ></app-strength-checker>
+</form>

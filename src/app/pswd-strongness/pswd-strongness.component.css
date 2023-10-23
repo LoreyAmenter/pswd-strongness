@@ -1,0 +1,24 @@
+.form{
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.label-text, .text{
+  font-family: 'Average Sans', sans-serif;
+  text-align: center;
+  font-size: 32px;
+  display: flex;
+  font-weight: 400;
+  margin: 0 auto;
+  padding: 12px;
+}
+
+.pswd-input{
+  border-radius: 50px;
+  background-color: transparent;
+  display: flex;
+  width: 90%;
+  margin: 0 auto;
+  padding: 12px;
+}

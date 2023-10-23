@@ -1,0 +1,8 @@
+@font-face {
+    font-family: 'Average Sans';
+    src: url(assets/fonts/AverageSans-Regular.ttf) format("truetype");
+}
+
+body{
+    background-color: #0094FF;
+}
