@@ -96,8 +96,15 @@ export class StrengthCheckerComponent implements OnChanges {
     };
   }
   private setBarColors(count, col) {
-    for (let n = 0; n < count; n++) {
-      this['bar' + n] = col;
+    if(this['passwordToVerify'].length <= 7){
+      for (let n = 0; n <= 2; n++) {
+        this['bar' + n] = col;
+      }
+    } else{
+      for (let n = 0; n < count; n++) {
+        this['bar' + n] = col;
+      }
     }
   }
 }
+
